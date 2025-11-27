@@ -15,34 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M60-og-7qq">
-                                <rect key="frame" x="16" y="144" width="370" height="295"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="295" id="Ryj-YM-pEe"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gNS-5d-esE">
-                                <rect key="frame" x="16" y="459" width="370" height="327"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                            </view>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M60-og-7qq" secondAttribute="trailing" constant="16" id="3GX-lH-Axc"/>
-                            <constraint firstItem="M60-og-7qq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7Mf-rY-AqA"/>
-                            <constraint firstItem="M60-og-7qq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="9Jn-SM-192"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gNS-5d-esE" secondAttribute="trailing" constant="16" id="IQP-vA-mnB"/>
-                            <constraint firstItem="gNS-5d-esE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cRg-a4-waq"/>
-                            <constraint firstItem="M60-og-7qq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fH3-Lr-ubh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gNS-5d-esE" secondAttribute="bottom" constant="20" id="gm7-5X-5xQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M60-og-7qq" secondAttribute="trailing" constant="16" id="mcJ-cT-vKF"/>
-                            <constraint firstItem="M60-og-7qq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="pId-UJ-JSF"/>
-                            <constraint firstItem="gNS-5d-esE" firstAttribute="height" secondItem="M60-og-7qq" secondAttribute="height" multiplier="1.10847" id="xyh-oD-NYr"/>
-                            <constraint firstItem="gNS-5d-esE" firstAttribute="top" secondItem="M60-og-7qq" secondAttribute="bottom" constant="20" id="y6b-cW-fQI"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,12 +27,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
